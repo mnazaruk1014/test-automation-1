@@ -8,8 +8,8 @@ describe('Change-password-in-account-page', () => {
 
     before(() => {
         Login.openLoginPage()
-        Login.enterToEmailField('test@test.com')
-        Login.enterToPasswordField('maftest@123456')
+        Login.enterToEmailField('mafplaceqauser@gmail.com')
+        Login.enterToPasswordField('mafplace2021')
         Login.loginClick()
         Ratings.checkPage()
         Header.accountBtnClick()

@@ -10,8 +10,8 @@ describe('Login', () => {
     })
 
     it('Successful-login', () => {
-        Login.enterToEmailField('test@test.com')
-        Login.enterToPasswordField('maftest@123456')
+        Login.enterToEmailField('mafplaceqauser@gmail.com')
+        Login.enterToPasswordField('mafplace2021')
         Login.loginClick()
         Header.checkAccountBtn()
         Header.checkLogoutBtn()

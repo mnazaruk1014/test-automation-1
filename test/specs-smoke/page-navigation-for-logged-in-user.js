@@ -11,12 +11,12 @@ describe('Page-navigation-for logged-in', () => {
     })
 
     it('Navigation-for-logged-in-user', () => {
-        Header.backToLoginBtnClick()
-        Login.enterToEmailField('test@test.com')
-        Login.enterToPasswordField('maftest@123456')
+        Login.enterToEmailField('mafplaceqauser@gmail.com')
+        Login.enterToPasswordField('mafplace2021')
         Login.loginClick()
         Ratings.checkPage()
-        Header.checkAccountBtn()
+        Header.accountBtnClick()
+        Account.checkPage()
         Header.logoutBtnClick()
         Login.checkPage()
         
