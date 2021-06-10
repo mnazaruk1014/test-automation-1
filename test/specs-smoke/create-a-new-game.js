@@ -11,7 +11,7 @@ describe('New-Game', () => {
         PublicGame.checkPage()
     })
 
-    it('Create-a-new-game', () => {
+    it('Create-a-new-Game', () => {
         PublicGame.enterToPlayerPlaceholderField()
         for (let i =1; i<=10; i++){
             console.log(i + ' player')
