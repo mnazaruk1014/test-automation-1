@@ -4,7 +4,7 @@ import Header from '../classes/elements/header.elem';
 import Account from '../classes/pages/account.page';
 
 
-describe('Change-Password-in-account-page', () => {
+describe('Change-Password-In-Account-Page', () => {
 
     before(() => {
         Login.openLoginPage()
